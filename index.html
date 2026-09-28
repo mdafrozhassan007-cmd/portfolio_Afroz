@@ -27,7 +27,7 @@ h1 path{fill:none;stroke:var(--r);stroke-width:7;stroke-linecap:round;stroke-das
 .role{display:block;font-weight:600;font-size:1rem;margin:0 0 18px;padding-left:14px;border-left:4px solid var(--r)}
 .intro{max-width:30em;margin:26px 0 0;font-size:1.15rem}
 .polaroid{background:#fff;border:2px solid var(--k);padding:14px 14px 46px;justify-self:center;width:100%;max-width:300px}
-.polaroid div{aspect-ratio:1;background:#eee;display:grid;place-items:center;color:var(--g);font-size:15px;text-align:center;padding:16px}
+.polaroid img{width:100%;aspect-ratio:1;object-fit:cover;object-position:center 20%;display:block;background:#eee;border:1px solid #ddd}
 .polaroid p{margin:12px 0 -30px;text-align:center}
 .dark{background:var(--k);color:#fff;padding:70px 0}
 h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(2.4rem,7vw,4.4rem);line-height:1;margin:0 0 34px}
@@ -53,7 +53,6 @@ h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;
 mark{background:none;color:inherit;font-weight:600;box-shadow:inset 0 -.4em 0 rgba(225,6,0,.25)}
 .foot{background:var(--k);color:#fff;padding:70px 0 60px}
 .foot h2{margin-bottom:14px}
-
 .cl{display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;max-width:760px}.cl small{display:block;color:#aaa;font-size:15px}.cl a,.cl span{font-size:1.15rem;font-weight:600;word-break:break-all}.cl a{text-decoration-color:var(--r);text-decoration-thickness:3px;text-underline-offset:5px}.copy{color:#888;margin:44px 0 0;font-size:15px}
 @media (max-width:780px){.row{grid-template-columns:1fr;gap:4px}.cl{grid-template-columns:1fr}.hero,.about,.skillbox,.proj{grid-template-columns:1fr}.polaroid{justify-self:start}}
 </style>
@@ -67,15 +66,18 @@ mark{background:none;color:inherit;font-weight:600;box-shadow:inset 0 -.4em 0 rg
 <h1><span>Md Afroz</span><span>Hassan<svg viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true"><path d="M2 12 C60 4, 120 16, 200 9 S340 6, 398 11"/></svg></span></h1>
 <p class="intro">I study computer science and business systems, I know what a stock shortage feels like from the shop floor, and I'm now learning to build the cloud pipelines and dashboards that would have saved me from it.</p>
 </div>
-<div class="polaroid"><div>Your photo goes here</div><p style="font-size:1rem;font-weight:600">Md Afroz Hassan</p></div>
+<div class="polaroid">
+  <img src="Screenshot 2026-09-28 215933.png" alt="Md Afroz Hassan">
+  <p style="font-size:1rem;font-weight:600">Md Afroz Hassan</p>
+</div>
 </header>
 </div>
 
 <section class="dark" id="work"><div class="wrap">
 <h2>Things I've <em>built</em></h2>
 <article class="proj"><h3>IoT Smart Ticketing<small>Internship, Sasken Technologies, Jun to Aug 2025</small></h3><p>I built the pipeline that carries RFID and GPS sensor data to a cloud backend for automatic commuter check-in and check-out, with fares calculated from GPS distance using the Haversine formula. Manual intervention in ticketing dropped by nearly 90% during prototype testing.</p></article>
-<article class="proj"><h3>SmartEnergy<small>Energy monitoring dashboard</small></h3><p>Shows a whole institution's energy use live. A rule-based engine scores every room by how much it wastes and projects cost savings daily, monthly and yearly from live consumption data.<br><a href="https://your-smartenergy-link.com" rel="noopener">Visit SmartEnergy</a></p></article>
-<article class="proj"><h3>Careerthon.AI<small>ETL and telemetry</small></h3><p>ETL pipelines and real-time telemetry for professional profile data, plus benchmarking of profile-scoring algorithms to improve LinkedIn profiles.<br><a href="https://carrerthon.in/about" rel="noopener">Visit Careerthon.AI</a></p></article>
+<article class="proj"><h3>SmartEnergy<small>Energy monitoring dashboard</small></h3><p>Shows a whole institution's energy use live. A rule-based engine scores every room by how much it wastes and projects cost savings daily, monthly and yearly from live consumption data.<br><a href="https://your-smartenergy-link.com" rel="noopener noreferrer">Visit SmartEnergy</a></p></article>
+<article class="proj"><h3>Careerthon.AI<small>ETL and telemetry</small></h3><p>ETL pipelines and real-time telemetry for professional profile data, plus benchmarking of profile-scoring algorithms to improve LinkedIn profiles.<br><a href="https://carrerthon.in/about" rel="noopener noreferrer">Visit Careerthon.AI</a></p></article>
 <article class="proj"><h3>AI-based Voting System<small>Jul to Sep 2025</small></h3><p>A voting system that verifies voters and detects fraud using facial recognition (Python and OpenCV). It reached about 95% identification accuracy in testing, with results stored and served through SQL-backed Spring Boot APIs.</p></article>
 </div></section>
 
@@ -107,8 +109,8 @@ mark{background:none;color:inherit;font-weight:600;box-shadow:inset 0 -.4em 0 rg
 <p style="margin:0 0 26px;color:#ddd">Open to data analyst roles and internships. The quickest way to reach me is email.</p>
 <div class="cl">
 <div><small>Email</small><a href="mailto:mdafrozhassan007@gmail.com">mdafrozhassan007@gmail.com</a></div>
-<div><small>LinkedIn</small><a href="https://www.linkedin.com/in/md-afroz-hassan-3ab131297/" rel="noopener">Md Afroz Hassan on LinkedIn</a></div>
-<div><small>GitHub</small><a href="https://github.com/mdafrozhassan007-cmd" rel="noopener">github.com/mdafrozhassan007-cmd</a></div>
+<div><small>LinkedIn</small><a href="https://www.linkedin.com/in/md-afroz-hassan-3ab131297/" rel="noopener noreferrer">Md Afroz Hassan on LinkedIn</a></div>
+<div><small>GitHub</small><a href="https://github.com/mdafrozhassan007-cmd" rel="noopener noreferrer">github.com/mdafrozhassan007-cmd</a></div>
 <div><small>Phone</small><a href="tel:+919163983209">+91 91639 83209</a></div>
 <div><small>Location</small><span>Kolkata, West Bengal, India</span></div>
 </div>
